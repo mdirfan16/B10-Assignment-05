@@ -11,6 +11,7 @@ const history = document.getElementById('history').addEventListener('click', fun
 
 
     document.getElementById('input').classList.add('hidden')
+    document.getElementById ('history-section').classList.remove('hidden')
 
 })
 
@@ -26,6 +27,9 @@ donation.addEventListener('click', function () {
         'font-bold', 'text-black', 'text-xl')
 
     document.getElementById('history').classList.add('border-2', 'px-5', 'py-2', 'rounded-lg')
+    document.getElementById ('history-section').classList.add('hidden')
+
+
 
 })
 

@@ -7,9 +7,7 @@
     <title>Donate Bangladesh</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    
 
     <style>
         .font-family {
@@ -29,7 +27,7 @@
             <div class="max-w-screen-xl mx-auto mb-5 pt-2 pb-4">
                 <div class=" flex justify-between mb-6 ">
                     <div>
-                        <button class="btn bg-lime-400 px-5 text-black text-xl"> Blog </button>
+                        <button class="btn bg-lime-400 px-5 text-black text-xl" onclick="blog()"> Blog </button>
                     </div>
                     <div class="flex justify-center items-center ">
                         <img src="assets/logo.png" alt="">
@@ -158,9 +156,9 @@
 
         </section>
 
-        <section>
+        <section id="history-section" class="hidden">
             <!-- HISTORY SECTION -->
-             <div id="history-section" class="max-w-screen-xl mx-auto">
+             <div  class="max-w-screen-xl mx-auto">
                 <div id="history-list" class="grid grid-cols-1 gap-3">
 
                 </div>

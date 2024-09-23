@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate Bangladesh</title>
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
 <body>
-    <header class="border-b-2 sticky ">
+    <header class=" ">
         <div class=" bg-orange-50">
             <div class="max-w-screen-xl mx-auto mb-5 pt-2 pb-4">
                 <div class=" flex justify-between mb-6 ">
                     <div>
-                        <button id="#home" class="btn bg-lime-400 px-5 text-black text-xl"> Home </button>
+                        <button class="btn bg-lime-400 px-5 text-black text-xl" onclick="home()"> Home </button>
                     </div>
                     <div class="flex justify-center items-center ">
                         <img src="assets/logo.png" alt="">
@@ -23,21 +21,66 @@
                     </div>
                     <div class="flex justify-center items-center ">
                         <img src="assets/coin.png" alt="">
-                        <h2 class="font-bold text-xl ml-2"><span>0000</span>BDT</h2>
+                        <h2 class="font-bold text-xl ml-2"><span id="fixed-balance">65400</span>BDT</h2>
                     </div>
                 </div>
             </div>
         </div>
 
-
-       
     </header>
 
-    <main class="mt-10">
+
+    <div class=" max-w-screen-xl mx-auto grid grid-cols-1 gap-2 ">
+        <div><h1 class="text-black text-4xl font-bold mb-5">Important FAQ?</h1></div>
+   
+        <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the DOM?
+
+        </div>
+        <div class="collapse-content">
+          <p>The DOM is a programming interface for web documents, representing the structure of a webpage</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How to create a new element in the DOM?</div>
+        <div class="collapse-content">
+          <p>Use document.createElement('tagName').
+        </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How to select an element by its ID? </div>
+        <div class="collapse-content">
+          <p>Use document.getElementById('elementId').
+        </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How to remove an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>Use element.remove();
+        </p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How to change an element's style?</div>
+        <div class="collapse-content">
+          <p>Use element.style.property = 'value';
+        </p>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="js/blog.js"></script>
 
 
-    </main>
 
+    
 </body>
-
 </html>
