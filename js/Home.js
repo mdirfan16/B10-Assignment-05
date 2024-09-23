@@ -26,7 +26,7 @@ document.getElementById('donate-button').addEventListener('click', function (eve
    historyItem.className = 'bg-white border-2 p-3 rounded-md';
    historyItem.innerHTML = `
    <p class ="text-2xl text-black font-bold">${inputDonate} Taka is Donated for famine-2024 at Feni, Bangladesh</p>
-   <p class ="text-lg text-gray-500 font-medium">${new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Dhaka' }))}</p>
+   <p class ="text-lg text-gray-500 font-medium">${new Date().toString()}</p>
    
    
    `;
@@ -62,7 +62,7 @@ document.getElementById('donate-button-2').addEventListener('click', function (e
    const historyItem = document.createElement('div')
    historyItem.className = 'bg-white border-2 p-3 rounded-md';
    historyItem.innerHTML = `
-   <p class ="text-2xl text-black font-bold">${inputDonate} Taka is Donated for famine-2024 at Feni, Bangladesh</p>
+   <p class ="text-2xl text-black font-bold">${inputDonate} Taka is Donated for Flood Relief in Noakhali,Bangladesh</p>
    <p class ="text-lg text-gray-500 font-medium">${new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Dhaka' }))}</p>
    
    
@@ -99,7 +99,7 @@ document.getElementById('donate-button-3').addEventListener('click', function (e
    const historyItem = document.createElement('div')
    historyItem.className = 'bg-white border-2 p-3 rounded-md';
    historyItem.innerHTML = `
-   <p class ="text-2xl text-black font-bold">${inputDonate} Taka is Donated for famine-2024 at Feni, Bangladesh</p>
+   <p class ="text-2xl text-black font-bold">${inputDonate} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</p>
    <p class ="text-lg text-gray-500 font-medium">${new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Dhaka' }))}</p>
    
    
