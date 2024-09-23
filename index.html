@@ -23,7 +23,7 @@
                     </div>
                     <div class="flex justify-center items-center ">
                         <img src="assets/coin.png" alt="">
-                        <h2 class="font-bold text-xl ml-2"><span>0000</span>BDT</h2>
+                        <h2 class="font-bold text-xl ml-2"><span id="fixed-balance">5600</span>BDT</h2>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             <div class="w-1/2"><img src="assets/feni.png" class="w-full" alt=""></div>
             <div class="w-1/2 h-fit">
                 <button class="btn text-lg font-medium mb-5"><img src="assets/coin.png" alt="">
-                    <span>0</span>BDT</button>
+                    <span id="donate-new-balance">0</span>BDT</button>
                 <div class="flex flex-col gap-11">
                     <div>
                         <h2 class="text-black font-bold text-xl mb-5">Donate for Flood Relief in Feni,Bangladesh</h2>
@@ -56,19 +56,19 @@
                             donating today to assist those in urgent need.</p>
                     </div>
                     <div class="grid grid-cols-1 gap-2">
-                        <input class="bg-slate-100 border rounded-lg p-4" type="text" name="" id="donation-maount"
+                        <input class="bg-slate-100 border rounded-lg p-4" type="text" name="" id="donation-amount"
                             placeholder="Write Donation Amount">
-                        <button class="bg-lime-300 font-bold p-4 rounded-xl"> Donate Now</button>
+                        <button id="donate-button" class="bg-lime-300 font-bold p-4 rounded-xl"> Donate Now</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Noakhali -->
-        <div class="max-w-screen-xl mx-auto flex gap-5 p-7 border-2 rounded-xl mb-8">
+        <!-- <div class="max-w-screen-xl mx-auto flex gap-5 p-7 border-2 rounded-xl mb-8">
             <div class="w-1/2"><img src="assets/noakhali.png" class="w-full" alt=""></div>
             <div class="w-1/2 h-fit">
                 <button class="btn text-lg font-medium mb-5"><img src="assets/coin.png" alt="">
-                    <span>0</span>BDT</button>
+                    <span id="main-balance">0</span>BDT</button>
                 <div class="flex flex-col gap-16">
                     <div>
                         <h2 class="text-black font-bold text-xl mb-5">Donate for Flood at Noakhali, Bangladesh</h2>
@@ -85,9 +85,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </main>
+    <script src="index.js"></script>
 
 </body>
 
