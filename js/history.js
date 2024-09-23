@@ -30,20 +30,26 @@ donation.addEventListener('click', function () {
 })
 
 
-const inputAmount = document.getElementById('donate-amount').value
+
+
+document.getElementById('dona')
+
+// const inputAmount = document.getElementById('donate-amount').value;
+// const inputAmount2 = document.getElementById('donate-amount-2').value;
+// const inputAmount3 = document.getElementById('donate-amount-3').value;
 
 
 
+// const historyItem = document.createElement('div')
+// historyItem.className = 'bg-white border-2 p-3 rounded-md';
+// historyItem.innerHTML = `
+// <p class ="text-xl text-black font-bold">${inputAmount2.toFixed(2)} fghjkljhgfdsfghjkljhgfdsas gfhjk</p>
+// <p class ="text-xl text-black font-bold">${new Date(). toLocaleDateString() }</p>
 
-const historyItem = document.createElement('div')
-historyItem.className = 'bg-white border-2 p-3 rounded-md'
-historyItem.innerHTML = `
-<p class ="text-xl text-black font-bold">${inputAmount}Taka is Donated for famine-2024 at Feni, Bangladesh</p>
 
+// `;
 
-`
-
-const historyContainer = document.getElementById('history-list')
-historyContainer.insertBefore(historyItem, historyContainer.firstChild)
+// const historyContainer = document.getElementById('history-list');
+// historyContainer.insertBefore(historyItem, historyContainer.firstChild);
 
 

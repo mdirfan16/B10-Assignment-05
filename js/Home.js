@@ -18,6 +18,20 @@ document.getElementById('donate-button').addEventListener('click', function (eve
    }
 
 
+   const historyItem = document.createElement('div')
+   historyItem.className = 'bg-white border-2 p-3 rounded-md';
+   historyItem.innerHTML = `
+   <p class ="text-2xl text-black font-bold">${inputDonate} Taka is Donated for famine-2024 at Feni, Bangladesh</p>
+   <p class ="text-lg text-gray-500 font-medium">${new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Dhaka' }))}</p>
+   
+   
+   `;
+   
+   const historyContainer = document.getElementById('history-list');
+   historyContainer.insertBefore(historyItem, historyContainer.firstChild);
+
+
+
 
 
 
