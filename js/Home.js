@@ -16,7 +16,11 @@ document.getElementById('donate-button').addEventListener('click', function (eve
    else {
       alert ('failed to donate your amount ! please try again')
    }
-   
+
+
+
+
+
 })
 
 
@@ -43,6 +47,9 @@ document.getElementById('donate-button-2').addEventListener('click', function (e
    }
    
 })
+
+
+
 document.getElementById('donate-button-3').addEventListener('click', function (event) {
    event.preventDefault();
 
@@ -61,5 +68,13 @@ document.getElementById('donate-button-3').addEventListener('click', function (e
    else {
       alert ('failed to donate your amount ! please try again')
    }
-   
+
 })
+
+
+
+
+
+
+
+
