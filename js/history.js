@@ -1,5 +1,6 @@
 
-const history = document.getElementById('history').addEventListener('click', function () {
+const history = document.getElementById('history').addEventListener('click', function (event) {
+    event.preventDefault();
 
     document.getElementById('history').classList.add('bg-lime-400', 'px-5', 'py-2', 'rounded-lg',
         'font-bold', 'text-black', 'text-xl')
@@ -16,7 +17,8 @@ const history = document.getElementById('history').addEventListener('click', fun
 })
 
 const donation = document.getElementById('donation')
-donation.addEventListener('click', function () {
+donation.addEventListener('click', function (event) {
+    event.preventDefault();
 
     document.getElementById('input').classList.remove('hidden')
 
