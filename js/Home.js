@@ -18,7 +18,7 @@ document.getElementById('donate-button').addEventListener('click', function (eve
    }
 
    else {
-      alert ('failed to donate your amount ! please try again')
+      alert ('Invalid Donation Amount')
    }
 
 
